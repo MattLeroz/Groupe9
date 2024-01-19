@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* Ajoutez ceci à votre fichier CSS global, comme index.css ou App.css */
+
+html, body {
+  overflow: hidden; /* Empêche le défilement sur l'ensemble de la page */
+  height: 100%; /* Définit la hauteur du corps pour s'assurer qu'il ne dépasse pas la fenêtre du navigateur */
+}
+
+#root {
+  height: 100%;
 }

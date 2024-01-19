@@ -1,0 +1,147 @@
+.parking-section {
+  border-radius: 10px; 
+  padding: 10px; 
+  color: white; 
+  margin-top: 180px; 
+  margin-left: 120px; 
+  margin-right: auto; 
+  max-width: 800px;
+}
+.parking-section {
+  background-color: #131320;
+  width: 600px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.car-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.car-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; 
+  font-size: 0.4rem;
+}
+.car-image {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+.car-model {
+  font-weight: bold;
+  margin: 0 5px;
+}
+.car-price {
+  margin-left: auto;
+  margin: 0 5px;
+  font-size: 0.75rem;
+  margin-right: 10px;
+}
+.car-status-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+}
+.status-button {
+  background: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+.car-container {
+  background-color: #131320;
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 3px; 
+}
+.car-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+}
+.progress-container {
+  background-color: #ddd; 
+  border-radius: 5px;
+}
+.progress-bar {
+  height: 20px;
+  background-color: #4CAF50; 
+  border-radius: 5px;
+  width: 0;}
+
+.car-container {
+  display: flex;
+  align-items: center;
+}
+
+.car-image {
+  width: 50px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+.progress-bar {
+  height: 10px; 
+}
+.scroll-to-top {
+  position: absolute;
+  top: -10px; 
+  right: 20px; 
+  background-color: #0063AE; 
+  border: none; 
+  border-radius: 50%; 
+  width: 40px; 
+  height: 40px; 
+  color: white; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+}
+.parking-section {
+  position: relative; }
+  
+  .car-details {
+    display: flex;
+    align-items: flex-start; }
+  
+  .progress-container {
+    flex-grow: 1; 
+    margin: 0 10px; 
+    margin-top: 8px;
+  }
+  
+  .status-indicators {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .status-indicator {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; 
+  }
+  
+  .status-circle {
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    margin-right: 5px; 
+  }
+  
+  .on-sale {
+    background-color: blue; 
+  }
+  
+  .on-standby {
+    background-color: orange; 
+  }
+  
+  .incoming {
+    background-color: green; 
+  }
+  
+  

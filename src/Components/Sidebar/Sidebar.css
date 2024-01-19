@@ -1,0 +1,48 @@
+/* Sidebar.css */
+
+.sidebar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100px; /* Ou la largeur de votre choix */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px; /* Espace en bas de la sidebar */
+}
+
+.sidebar-icon {
+  width: 40px; /* Largeur des icônes */
+  height: 40px; /* Hauteur des icônes */
+  margin-bottom: 10px; /* Espace entre les icônes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px; /* Arrondit les icônes */
+  background-color: #333; /* Fond des icônes */
+  color: white; /* Couleur du texte */
+  font-size: 12px; /* Taille du texte */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Animation de fond au survol */
+}
+
+.sidebar-icon img {
+  max-width: 100%; /* S'assure que l'image s'adapte à la div */
+  max-height: 100%; /* S'assure que l'image s'adapte à la div */
+  width: 20px;
+  height: 20px;
+}
+
+.sidebar-icon.active, .sidebar-icon:hover {
+  background-color: #4A90E2; /* Couleur de fond pour l'icône active ou au survol */
+}
+
+.sidebar-icon span {
+  display: none; /* Cache le texte par défaut */
+}
+
+.sidebar-icon:hover span {
+  display: block; /* Montre le texte au survol */
+}
+
+/* Ajoutez des styles supplémentaires si nécessaire */

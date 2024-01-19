@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
 
+import React from 'react';
+import Header from './Components/Header/Header';
+import Sidebar from './Components/Sidebar/Sidebar'; // Assurez-vous que le chemin est correct
+import ParkingSection from './Components/maincontent/ParkingSection';
+import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Sidebar />
+      <ParkingSection/>
+      {/* Vous pouvez ajouter d'autres composants ici, comme MainContent ou Footer */}
     </div>
   );
 }

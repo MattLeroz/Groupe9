@@ -1,0 +1,110 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000; /* Mettez ici la couleur de fond de votre choix */
+  padding: 10px 20px;
+}
+
+.search-area {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.search-input {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 220px; 
+  background-color: #131320;
+}
+
+.logo-area {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1; /* Permet au logo de rester au centre */
+}
+
+.header-logo {
+  height: auto;
+  width: 80px; /* Ajustez la taille selon votre design */
+}
+
+.user-area {
+  display: flex;
+  align-items: center;
+}
+
+.notification-area {
+  border-radius: 20px; /* Coins arrondis pour les fonds */
+  padding: 5px 10px; /* Espace intérieur pour les éléments */
+  margin-left: 10px; /* Espace entre les éléments */
+  background-color: #131320;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Rend l'image circulaire */
+  margin-left: 10px;
+  background-color: #131320;
+}
+
+.greeting-text, .jarvis-text {
+  color: white; /* Couleur du texte pour le contraste */
+  margin-left: 30px;
+}
+
+/* Vous pouvez ajouter ou ajuster les styles pour correspondre exactement à votre design */
+.greeting-area {
+  background-color: #131320; /* Remplacez ceci par la couleur réelle de votre carré bleu foncé */
+  color: white; /* Ou toute autre couleur que vous avez pour le texte */
+  padding: 5px 20px; /* Ajustez selon la taille de votre carré */
+  border-radius: 20px; /* Si votre carré a des coins arrondis */
+  display: flex;
+  justify-content: center; /* Centrer horizontalement le contenu */
+  align-items: center; /* Centrer verticalement le contenu */
+  padding-left: 10px;
+}
+.greeting-text {
+  margin-left: 0; 
+}
+.jarvis-area {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  padding: 13px 20px; /* Ajustez selon la taille de votre carré */
+  border-radius: 20px; /* Si votre carré a des coins arrondis */
+  background-color: #131320;
+  
+}
+
+
+
+
+.jarvis-icon {
+  /* Taille de l'icône, ajustez selon vos besoins */
+  width: 24px;
+  height: 24px;
+}
+/* Styles pour la zone de notification, la zone de bienvenue, et Jarvis */
+.notification-area, .greeting-area, .jarvis-area {
+  margin-right: 10px; 
+}
+
+/* Styles spécifiques pour la zone de notification pour l'agrandir */
+.notification-area {
+  width: 40px; /* Largeur plus grande pour le carré des notifications */
+  height: 40px; /* Hauteur plus grande pour le carré des notifications */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ajustez les styles de .user-greeting et .jarvis-area si nécessaire pour aligner les éléments */
