@@ -1,0 +1,24 @@
+.IAPrincipal {
+    background-color: #131320; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center;
+    width: 32%;
+    height: 175px;
+    margin-left: 775px;
+    margin-top: -215px;
+    position: fixed;
+}
+  
+.ai-container {
+    position: relative;
+  }
+  
+  .ai-title {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    margin-top: 10px;
+    margin-left: 10px; }
+  

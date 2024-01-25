@@ -1,0 +1,61 @@
+.incoming-fleets-container{
+    background-color: #131320; 
+    color: white; 
+    padding: 20px; 
+    margin-bottom: 2px; 
+    border-radius: 10px; 
+    text-align: center; 
+    width: 32%;
+    height: 175px;
+    margin-left: 775px;
+    margin-top: -450px;
+    position: fixed;
+}
+  .incoming-fleets-title {
+    text-align: left; 
+    margin-bottom: 20px; 
+    margin-top: 0px;}
+  
+  .fleet-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    width: auto;
+  }
+  .fleet-brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-icon {
+    width: 32px; 
+    height: auto;
+    margin-right: 8px;
+  }
+  .fleet-vehicles,
+  .fleet-valuation {
+    background-color: #131320; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: auto;
+  }
+  
+.scroll-to-top {
+    transform: rotate(45deg); 
+    position: absolute;
+    top: -10px; 
+    right: 20px; 
+    background-color: #0063AE; 
+    border: none; 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    color: white; 
+    cursor: pointer; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+  }
+  

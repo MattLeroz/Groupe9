@@ -1,0 +1,9 @@
+.bar-container {
+    height: 500px;
+    width: 500px;
+}
+
+.bar {
+    width: 100%;
+    height: 100%;
+}

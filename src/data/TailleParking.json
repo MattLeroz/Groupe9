@@ -1,0 +1,32 @@
+{
+  "Feuil1": [
+    {
+      "Modèle du véhicule ": "Peugeot 208 ",
+      "Nombre de véhicules en vente": 95,
+      "Nombre en arrivage": 12,
+      "Nombre en attente": 3,
+      "Taille Parking ": 120
+    },
+    {
+      "Modèle du véhicule ": "Citroën C4 ",
+      "Nombre de véhicules en vente": 61,
+      "Nombre en arrivage": 8,
+      "Nombre en attente": 2,
+      "Taille Parking ": 85
+    },
+    {
+      "Modèle du véhicule ": "Opel Corsa",
+      "Nombre de véhicules en vente": 19,
+      "Nombre en arrivage": 6,
+      "Nombre en attente": 1,
+      "Taille Parking ": 67
+    },
+    {
+      "Modèle du véhicule ": "Citroën C3",
+      "Nombre de véhicules en vente": 61,
+      "Nombre en arrivage": 12,
+      "Nombre en attente": 3,
+      "Taille Parking ": 85
+    }
+  ]
+}
